@@ -8,20 +8,35 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import tn.esprit.spring.entities.Departement;
+import tn.esprit.spring.entities.Employe;
 import tn.esprit.spring.entities.Entreprise;
 import tn.esprit.spring.repository.DepartementRepository;
 import tn.esprit.spring.repository.EntrepriseRepository;
-
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 @Service
 public class EntrepriseServiceImpl implements IEntrepriseService {
-
+	
+	private static final Logger logger = LoggerFactory.getLogger(EntrepriseServiceImpl.class);
 	@Autowired
     EntrepriseRepository entrepriseRepoistory;
 	@Autowired
 	DepartementRepository deptRepoistory;
 	
 	public int ajouterEntreprise(Entreprise entreprise) {
-		entrepriseRepoistory.save(entreprise);
+		System.out.println("**********");
+		
+		try{
+			logger.info("Ajouter Entreprise");
+			logger.debug("je suis entrain d'ajouter une entreprise");
+			entrepriseRepoistory.save(entreprise);
+			logger.info("entreprise ajoutee");
+		}catch (Exception e) {
+			logger.error("Erreur : " );
+		}finally{
+			logger.info("Methode ajouter entreprise fini");
+		}
+	
 		return entreprise.getId();
 	}
 
@@ -56,7 +71,20 @@ public class EntrepriseServiceImpl implements IEntrepriseService {
 
 	@Transactional
 	public void deleteEntrepriseById(int entrepriseId) {
-		entrepriseRepoistory.delete(entrepriseRepoistory.findById(entrepriseId).get());	
+			
+			try{
+				
+				logger.info("suppression d'une entreprise : ");
+				logger.debug("selection d'une entreprise a supprimé : ");
+				entrepriseRepoistory.delete(entrepriseRepoistory.findById(entrepriseId).get());
+				logger.debug("je viens de supprimer entreprise: ");
+				logger.info("suppression sans erreurs " );
+			}catch(Exception e){
+				logger.error("Erreur dans la suppression de l'entreprise: "+e);
+			}finally{
+				logger.info("Methode supprimer entreprise fini");
+			}
+			
 	}
 
 	@Transactional
@@ -66,7 +94,20 @@ public class EntrepriseServiceImpl implements IEntrepriseService {
 
 
 	public Entreprise getEntrepriseById(int entrepriseId) {
-		return entrepriseRepoistory.findById(entrepriseId).get();	
+		Entreprise x = new Entreprise();
+		try{
+			logger.info("affichage d'une entreprise par id : ");
+			logger.debug("entrain d'afficher entreprise : ");
+			x = entrepriseRepoistory.findById(entrepriseId).get();
+			logger.debug("je viens d'afficher entreprise: ");
+			logger.info("affichage sans erreurs " );
+		}
+		catch(Exception e){
+			logger.error("Erreur dans l'affichage de l'entreprise: "+e);
+		}finally{
+			logger.info("Methode affichage entreprise fini");
+		}
+		return x;	
 	}
 
 }
