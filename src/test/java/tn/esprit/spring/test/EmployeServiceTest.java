@@ -16,6 +16,7 @@ import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.junit4.SpringRunner;
 import tn.esprit.spring.entities.Contrat;
+import tn.esprit.spring.entities.Departement;
 import tn.esprit.spring.entities.Employe;
 import tn.esprit.spring.entities.Entreprise;
 import tn.esprit.spring.entities.Mission;
@@ -24,7 +25,7 @@ import tn.esprit.spring.entities.Timesheet;
 import tn.esprit.spring.services.IEmployeService;
 import tn.esprit.spring.services.IEntrepriseService;
 
-@RunWith(SpringJUnit4ClassRunner.class)
+@RunWith(SpringRunner.class)
 @SpringBootTest
 public class EmployeServiceTest {
 	@Autowired
@@ -36,37 +37,39 @@ public class EmployeServiceTest {
 	private Entreprise entreprise;
 	private Mission mission;
 	private int idEmp;
-	private int idcontrat;
+	private int idDep;
 	private int nbEmploye;
+	private int contratId;
 	@Before
-	  public void setUp() throws Exception {
+	public void init() {
 		contrat = new Contrat(null, null, 2000);
 		employe = new Employe("Abidi", "Hamza", "hamza.abidi1@esprit.tn", false, Role.INGENIEUR);
 		entreprise = new Entreprise("tek", null);
 		mission = new Mission(null, null);
-		idEmp=47;
-		  idcontrat=46;
-		  nbEmploye=40;
-	  }
-
-	  @After
-	  public void tearDown() throws Exception {
+		Departement departemet = new Departement("spring");
+		idDep=ientSer.ajouterDepartement(departemet);
+		idEmp= iempServ.ajouterEmploye(employe);
+		contratId=iempServ.ajouterContrat(contrat);
+		nbEmploye=iempServ.getNombreEmployeJPQL();
 		
-		  idEmp=0;
-		  idcontrat=0;
-		  nbEmploye=0;
 	  }
+	
+	@After
+	public void teardown() {
+		iempServ.deleteEmployeById(idEmp);
+		ientSer.deleteDepartementById(idDep);
+		iempServ.deleteContratById(contratId);
+		
+	}
 	
 	
 	@Test
-	@Rollback(false)
 	public void testajouterEmploye() {
 		Assert.assertEquals(idEmp, iempServ.ajouterEmploye(employe));
 	}
 	@Test
-	@Rollback(false)
 	public void testajouterContrat() {
-		Assert.assertEquals(idcontrat, iempServ.ajouterContrat(contrat));
+		Assert.assertEquals(contratId, iempServ.ajouterContrat(contrat));
 	}
 	@Test
 	public void testgetEmployePrenomById() {
@@ -74,7 +77,6 @@ public class EmployeServiceTest {
 
 	}
 	@Test
-	@Rollback(false)
 	public void testgetNombreEmployeJPQL() {
 		Assert.assertEquals(nbEmploye, iempServ.getNombreEmployeJPQL());
 		
