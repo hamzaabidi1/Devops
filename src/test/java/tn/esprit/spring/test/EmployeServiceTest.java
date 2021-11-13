@@ -40,6 +40,8 @@ public class EmployeServiceTest {
 	private int idDep;
 	private int nbEmploye;
 	private int contratId;
+	
+	//method initialize variables before tests
 	@Before
 	public void init() {
 		contrat = new Contrat(null, null, 2000);
