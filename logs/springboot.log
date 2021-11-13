@@ -9340,3 +9340,225 @@ Caused by: java.net.ConnectException: Connection refused: connect
 2021-nov.-13 12:19:54.973 INFO  [Thread-1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2021-nov.-13 12:19:54.978 INFO  [Thread-1] c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2021-nov.-13 12:19:54.990 INFO  [Thread-1] c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-nov.-13 12:39:17.627 INFO  [main] t.e.s.t.EmployeServiceTest - Starting EmployeServiceTest on DESKTOP-QOEUFNO with PID 15888 (started by ASUS in C:\Users\ASUS\.jenkins\workspace\timeSheet)
+2021-nov.-13 12:39:17.629 INFO  [main] t.e.s.t.EmployeServiceTest - No active profile set, falling back to default profiles: default
+2021-nov.-13 12:39:19.282 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-nov.-13 12:39:19.473 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 169ms. Found 6 repository interfaces.
+2021-nov.-13 12:39:20.463 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fdce8155] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-nov.-13 12:39:20.874 INFO  [main] c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2021-nov.-13 12:39:21.247 INFO  [main] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2021-nov.-13 12:39:21.545 INFO  [main] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-nov.-13 12:39:21.672 INFO  [main] o.h.Version - HHH000412: Hibernate Core {5.3.9.Final}
+2021-nov.-13 12:39:21.675 INFO  [main] o.h.c.Environment - HHH000206: hibernate.properties not found
+2021-nov.-13 12:39:22.205 INFO  [main] o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-nov.-13 12:39:22.969 INFO  [main] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-nov.-13 12:39:25.881 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-nov.-13 12:39:27.087 INFO  [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2021-nov.-13 12:39:29.881 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-nov.-13 12:39:30.050 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-nov.-13 12:39:31.001 INFO  [main] t.e.s.t.EmployeServiceTest - Started EmployeServiceTest in 14.209 seconds (JVM running for 15.656)
+2021-nov.-13 12:39:31.634 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteEmployeById 
+2021-nov.-13 12:39:31.748 INFO  [main] t.e.s.s.EmployeServiceImpl - end delete employe
+2021-nov.-13 12:39:31.763 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteContratById 
+2021-nov.-13 12:39:31.783 INFO  [main] t.e.s.s.EmployeServiceImpl - delete conrtat with success  
+2021-nov.-13 12:39:31.814 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteEmployeById 
+2021-nov.-13 12:39:31.835 INFO  [main] t.e.s.s.EmployeServiceImpl - end delete employe
+2021-nov.-13 12:39:31.844 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteContratById 
+2021-nov.-13 12:39:31.858 INFO  [main] t.e.s.s.EmployeServiceImpl - delete conrtat with success  
+2021-nov.-13 12:39:31.887 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteEmployeById 
+2021-nov.-13 12:39:31.903 INFO  [main] t.e.s.s.EmployeServiceImpl - end delete employe
+2021-nov.-13 12:39:31.911 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteContratById 
+2021-nov.-13 12:39:31.922 INFO  [main] t.e.s.s.EmployeServiceImpl - delete conrtat with success  
+2021-nov.-13 12:39:31.947 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteEmployeById 
+2021-nov.-13 12:39:31.965 INFO  [main] t.e.s.s.EmployeServiceImpl - end delete employe
+2021-nov.-13 12:39:31.973 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteContratById 
+2021-nov.-13 12:39:31.987 INFO  [main] t.e.s.s.EmployeServiceImpl - delete conrtat with success  
+2021-nov.-13 12:39:32.022 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteEmployeById 
+2021-nov.-13 12:39:32.041 INFO  [main] t.e.s.s.EmployeServiceImpl - end delete employe
+2021-nov.-13 12:39:32.051 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteContratById 
+2021-nov.-13 12:39:32.065 INFO  [main] t.e.s.s.EmployeServiceImpl - delete conrtat with success  
+2021-nov.-13 12:39:32.436 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteEmployeById 
+2021-nov.-13 12:39:32.456 INFO  [main] t.e.s.s.EmployeServiceImpl - end delete employe
+2021-nov.-13 12:39:32.466 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteContratById 
+2021-nov.-13 12:39:32.480 INFO  [main] t.e.s.s.EmployeServiceImpl - delete conrtat with success  
+2021-nov.-13 12:39:32.510 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteEmployeById 
+2021-nov.-13 12:39:32.522 INFO  [main] t.e.s.s.EmployeServiceImpl - end delete employe
+2021-nov.-13 12:39:32.528 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteContratById 
+2021-nov.-13 12:39:32.537 INFO  [main] t.e.s.s.EmployeServiceImpl - delete conrtat with success  
+2021-nov.-13 12:39:32.568 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteEmployeById 
+2021-nov.-13 12:39:32.582 INFO  [main] t.e.s.s.EmployeServiceImpl - end delete employe
+2021-nov.-13 12:39:32.589 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteContratById 
+2021-nov.-13 12:39:32.600 INFO  [main] t.e.s.s.EmployeServiceImpl - delete conrtat with success  
+2021-nov.-13 12:39:32.626 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteEmployeById 
+2021-nov.-13 12:39:32.641 INFO  [main] t.e.s.s.EmployeServiceImpl - end delete employe
+2021-nov.-13 12:39:32.649 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteContratById 
+2021-nov.-13 12:39:32.658 INFO  [main] t.e.s.s.EmployeServiceImpl - delete conrtat with success  
+2021-nov.-13 12:39:32.668 INFO  [main] t.e.s.s.EntrepriseServiceImpl - affichage d'une entreprise par id : 
+2021-nov.-13 12:39:32.669 ERROR [main] t.e.s.s.EntrepriseServiceImpl - Erreur dans l'affichage de l'entreprise: java.lang.NullPointerException
+2021-nov.-13 12:39:32.669 INFO  [main] t.e.s.s.EntrepriseServiceImpl - Methode affichage entreprise fini
+2021-nov.-13 12:39:32.670 INFO  [main] t.e.s.s.EntrepriseServiceImpl - suppression d'une entreprise : 
+2021-nov.-13 12:39:32.670 ERROR [main] t.e.s.s.EntrepriseServiceImpl - Erreur dans la suppression de l'entreprise: java.lang.NullPointerException
+2021-nov.-13 12:39:32.670 INFO  [main] t.e.s.s.EntrepriseServiceImpl - Methode supprimer entreprise fini
+2021-nov.-13 12:39:32.671 INFO  [main] t.e.s.s.EntrepriseServiceImpl - Ajouter Entreprise
+2021-nov.-13 12:39:32.671 ERROR [main] t.e.s.s.EntrepriseServiceImpl - Erreur : 
+2021-nov.-13 12:39:32.671 INFO  [main] t.e.s.s.EntrepriseServiceImpl - Methode ajouter entreprise fini
+2021-nov.-13 12:39:32.674 INFO  [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [tn.esprit.spring.test.TimeSheetTest], using SpringBootContextLoader
+2021-nov.-13 12:39:32.676 INFO  [main] o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [tn.esprit.spring.test.TimeSheetTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-nov.-13 12:39:32.677 INFO  [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [tn.esprit.spring.test.TimeSheetTest]: TimeSheetTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-nov.-13 12:39:32.681 INFO  [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration tn.esprit.spring.TimesheetSpringBootCoreDataJpaMvcRest1Application for test class tn.esprit.spring.test.TimeSheetTest
+2021-nov.-13 12:39:32.685 INFO  [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-nov.-13 12:39:32.685 INFO  [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@d8751de, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6e21c6ed, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@75c30a4f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@360e4235, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1b0fc8b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@61c644fe, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@cbaabfb, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@48614fb3, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4eb3b690, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1d01fa0c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@44bd7f24, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6e3acd7]
+2021-nov.-13 12:39:32.821 INFO  [Thread-1] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-nov.-13 12:39:32.827 INFO  [Thread-1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-nov.-13 12:39:32.833 INFO  [Thread-1] c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-nov.-13 12:39:32.850 INFO  [Thread-1] c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-nov.-13 13:32:12.183 INFO  [main] t.e.s.t.EmployeServiceTest - Starting EmployeServiceTest on DESKTOP-QOEUFNO with PID 7468 (started by ASUS in C:\Users\ASUS\.jenkins\workspace\timeSheet)
+2021-nov.-13 13:32:12.185 INFO  [main] t.e.s.t.EmployeServiceTest - No active profile set, falling back to default profiles: default
+2021-nov.-13 13:32:13.173 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-nov.-13 13:32:13.300 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 116ms. Found 6 repository interfaces.
+2021-nov.-13 13:32:13.903 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d9b148bc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-nov.-13 13:32:14.191 INFO  [main] c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2021-nov.-13 13:32:14.400 INFO  [main] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2021-nov.-13 13:32:14.484 INFO  [main] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-nov.-13 13:32:14.579 INFO  [main] o.h.Version - HHH000412: Hibernate Core {5.3.9.Final}
+2021-nov.-13 13:32:14.581 INFO  [main] o.h.c.Environment - HHH000206: hibernate.properties not found
+2021-nov.-13 13:32:14.761 INFO  [main] o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-nov.-13 13:32:15.330 INFO  [main] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-nov.-13 13:32:16.584 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-nov.-13 13:32:17.005 INFO  [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2021-nov.-13 13:32:18.213 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-nov.-13 13:32:18.296 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-nov.-13 13:32:18.779 INFO  [main] t.e.s.t.EmployeServiceTest - Started EmployeServiceTest in 7.042 seconds (JVM running for 8.085)
+2021-nov.-13 13:32:19.116 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteEmployeById 
+2021-nov.-13 13:32:19.182 INFO  [main] t.e.s.s.EmployeServiceImpl - end delete employe
+2021-nov.-13 13:32:19.192 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteContratById 
+2021-nov.-13 13:32:19.202 INFO  [main] t.e.s.s.EmployeServiceImpl - delete conrtat with success  
+2021-nov.-13 13:32:19.223 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteEmployeById 
+2021-nov.-13 13:32:19.234 INFO  [main] t.e.s.s.EmployeServiceImpl - end delete employe
+2021-nov.-13 13:32:19.239 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteContratById 
+2021-nov.-13 13:32:19.247 INFO  [main] t.e.s.s.EmployeServiceImpl - delete conrtat with success  
+2021-nov.-13 13:32:19.265 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteEmployeById 
+2021-nov.-13 13:32:19.276 INFO  [main] t.e.s.s.EmployeServiceImpl - end delete employe
+2021-nov.-13 13:32:19.280 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteContratById 
+2021-nov.-13 13:32:19.286 INFO  [main] t.e.s.s.EmployeServiceImpl - delete conrtat with success  
+2021-nov.-13 13:32:19.302 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteEmployeById 
+2021-nov.-13 13:32:19.314 INFO  [main] t.e.s.s.EmployeServiceImpl - end delete employe
+2021-nov.-13 13:32:19.319 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteContratById 
+2021-nov.-13 13:32:19.329 INFO  [main] t.e.s.s.EmployeServiceImpl - delete conrtat with success  
+2021-nov.-13 13:32:19.350 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteEmployeById 
+2021-nov.-13 13:32:19.361 INFO  [main] t.e.s.s.EmployeServiceImpl - end delete employe
+2021-nov.-13 13:32:19.367 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteContratById 
+2021-nov.-13 13:32:19.378 INFO  [main] t.e.s.s.EmployeServiceImpl - delete conrtat with success  
+2021-nov.-13 13:32:19.586 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteEmployeById 
+2021-nov.-13 13:32:19.599 INFO  [main] t.e.s.s.EmployeServiceImpl - end delete employe
+2021-nov.-13 13:32:19.604 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteContratById 
+2021-nov.-13 13:32:19.613 INFO  [main] t.e.s.s.EmployeServiceImpl - delete conrtat with success  
+2021-nov.-13 13:32:19.634 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteEmployeById 
+2021-nov.-13 13:32:19.645 INFO  [main] t.e.s.s.EmployeServiceImpl - end delete employe
+2021-nov.-13 13:32:19.650 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteContratById 
+2021-nov.-13 13:32:19.661 INFO  [main] t.e.s.s.EmployeServiceImpl - delete conrtat with success  
+2021-nov.-13 13:32:19.682 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteEmployeById 
+2021-nov.-13 13:32:19.693 INFO  [main] t.e.s.s.EmployeServiceImpl - end delete employe
+2021-nov.-13 13:32:19.698 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteContratById 
+2021-nov.-13 13:32:19.708 INFO  [main] t.e.s.s.EmployeServiceImpl - delete conrtat with success  
+2021-nov.-13 13:32:19.727 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteEmployeById 
+2021-nov.-13 13:32:19.737 INFO  [main] t.e.s.s.EmployeServiceImpl - end delete employe
+2021-nov.-13 13:32:19.744 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteContratById 
+2021-nov.-13 13:32:19.751 INFO  [main] t.e.s.s.EmployeServiceImpl - delete conrtat with success  
+2021-nov.-13 13:32:19.757 INFO  [main] t.e.s.s.EntrepriseServiceImpl - affichage d'une entreprise par id : 
+2021-nov.-13 13:32:19.758 ERROR [main] t.e.s.s.EntrepriseServiceImpl - Erreur dans l'affichage de l'entreprise: java.lang.NullPointerException
+2021-nov.-13 13:32:19.759 INFO  [main] t.e.s.s.EntrepriseServiceImpl - Methode affichage entreprise fini
+2021-nov.-13 13:32:19.759 INFO  [main] t.e.s.s.EntrepriseServiceImpl - suppression d'une entreprise : 
+2021-nov.-13 13:32:19.759 ERROR [main] t.e.s.s.EntrepriseServiceImpl - Erreur dans la suppression de l'entreprise: java.lang.NullPointerException
+2021-nov.-13 13:32:19.759 INFO  [main] t.e.s.s.EntrepriseServiceImpl - Methode supprimer entreprise fini
+2021-nov.-13 13:32:19.760 INFO  [main] t.e.s.s.EntrepriseServiceImpl - Ajouter Entreprise
+2021-nov.-13 13:32:19.760 ERROR [main] t.e.s.s.EntrepriseServiceImpl - Erreur : 
+2021-nov.-13 13:32:19.760 INFO  [main] t.e.s.s.EntrepriseServiceImpl - Methode ajouter entreprise fini
+2021-nov.-13 13:32:19.762 INFO  [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [tn.esprit.spring.test.TimeSheetTest], using SpringBootContextLoader
+2021-nov.-13 13:32:19.763 INFO  [main] o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [tn.esprit.spring.test.TimeSheetTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-nov.-13 13:32:19.764 INFO  [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [tn.esprit.spring.test.TimeSheetTest]: TimeSheetTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-nov.-13 13:32:19.767 INFO  [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration tn.esprit.spring.TimesheetSpringBootCoreDataJpaMvcRest1Application for test class tn.esprit.spring.test.TimeSheetTest
+2021-nov.-13 13:32:19.769 INFO  [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-nov.-13 13:32:19.774 INFO  [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@cbaabfb, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@48614fb3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4eb3b690, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1d01fa0c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@44bd7f24, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6e3acd7, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@55b78dad, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@47f4dc8d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@689fcf08, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@738153d8, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1a3272e0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7bc3c59f]
+2021-nov.-13 13:32:19.860 INFO  [Thread-1] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-nov.-13 13:32:19.863 INFO  [Thread-1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-nov.-13 13:32:19.867 INFO  [Thread-1] c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-nov.-13 13:32:19.880 INFO  [Thread-1] c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-nov.-13 13:32:31.101 INFO  [main] t.e.s.t.EmployeServiceTest - Starting EmployeServiceTest on DESKTOP-QOEUFNO with PID 16632 (started by ASUS in C:\Users\ASUS\.jenkins\workspace\timeSheet)
+2021-nov.-13 13:32:31.102 INFO  [main] t.e.s.t.EmployeServiceTest - No active profile set, falling back to default profiles: default
+2021-nov.-13 13:32:32.058 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-nov.-13 13:32:32.188 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 119ms. Found 6 repository interfaces.
+2021-nov.-13 13:32:32.757 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f253775c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-nov.-13 13:32:33.049 INFO  [main] c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2021-nov.-13 13:32:33.243 INFO  [main] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2021-nov.-13 13:32:33.335 INFO  [main] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-nov.-13 13:32:33.436 INFO  [main] o.h.Version - HHH000412: Hibernate Core {5.3.9.Final}
+2021-nov.-13 13:32:33.439 INFO  [main] o.h.c.Environment - HHH000206: hibernate.properties not found
+2021-nov.-13 13:32:33.663 INFO  [main] o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-nov.-13 13:32:34.195 INFO  [main] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-nov.-13 13:32:35.453 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-nov.-13 13:32:35.868 INFO  [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2021-nov.-13 13:32:37.073 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-nov.-13 13:32:37.190 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-nov.-13 13:32:37.669 INFO  [main] t.e.s.t.EmployeServiceTest - Started EmployeServiceTest in 7.008 seconds (JVM running for 8.075)
+2021-nov.-13 13:32:37.991 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteEmployeById 
+2021-nov.-13 13:32:38.058 INFO  [main] t.e.s.s.EmployeServiceImpl - end delete employe
+2021-nov.-13 13:32:38.065 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteContratById 
+2021-nov.-13 13:32:38.076 INFO  [main] t.e.s.s.EmployeServiceImpl - delete conrtat with success  
+2021-nov.-13 13:32:38.098 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteEmployeById 
+2021-nov.-13 13:32:38.111 INFO  [main] t.e.s.s.EmployeServiceImpl - end delete employe
+2021-nov.-13 13:32:38.117 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteContratById 
+2021-nov.-13 13:32:38.128 INFO  [main] t.e.s.s.EmployeServiceImpl - delete conrtat with success  
+2021-nov.-13 13:32:38.146 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteEmployeById 
+2021-nov.-13 13:32:38.158 INFO  [main] t.e.s.s.EmployeServiceImpl - end delete employe
+2021-nov.-13 13:32:38.162 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteContratById 
+2021-nov.-13 13:32:38.169 INFO  [main] t.e.s.s.EmployeServiceImpl - delete conrtat with success  
+2021-nov.-13 13:32:38.187 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteEmployeById 
+2021-nov.-13 13:32:38.200 INFO  [main] t.e.s.s.EmployeServiceImpl - end delete employe
+2021-nov.-13 13:32:38.206 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteContratById 
+2021-nov.-13 13:32:38.215 INFO  [main] t.e.s.s.EmployeServiceImpl - delete conrtat with success  
+2021-nov.-13 13:32:38.239 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteEmployeById 
+2021-nov.-13 13:32:38.252 INFO  [main] t.e.s.s.EmployeServiceImpl - end delete employe
+2021-nov.-13 13:32:38.257 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteContratById 
+2021-nov.-13 13:32:38.266 INFO  [main] t.e.s.s.EmployeServiceImpl - delete conrtat with success  
+2021-nov.-13 13:32:38.525 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteEmployeById 
+2021-nov.-13 13:32:38.538 INFO  [main] t.e.s.s.EmployeServiceImpl - end delete employe
+2021-nov.-13 13:32:38.544 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteContratById 
+2021-nov.-13 13:32:38.553 INFO  [main] t.e.s.s.EmployeServiceImpl - delete conrtat with success  
+2021-nov.-13 13:32:38.577 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteEmployeById 
+2021-nov.-13 13:32:38.588 INFO  [main] t.e.s.s.EmployeServiceImpl - end delete employe
+2021-nov.-13 13:32:38.593 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteContratById 
+2021-nov.-13 13:32:38.600 INFO  [main] t.e.s.s.EmployeServiceImpl - delete conrtat with success  
+2021-nov.-13 13:32:38.623 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteEmployeById 
+2021-nov.-13 13:32:38.634 INFO  [main] t.e.s.s.EmployeServiceImpl - end delete employe
+2021-nov.-13 13:32:38.642 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteContratById 
+2021-nov.-13 13:32:38.651 INFO  [main] t.e.s.s.EmployeServiceImpl - delete conrtat with success  
+2021-nov.-13 13:32:38.667 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteEmployeById 
+2021-nov.-13 13:32:38.678 INFO  [main] t.e.s.s.EmployeServiceImpl - end delete employe
+2021-nov.-13 13:32:38.682 INFO  [main] t.e.s.s.EmployeServiceImpl - IN deleteContratById 
+2021-nov.-13 13:32:38.688 INFO  [main] t.e.s.s.EmployeServiceImpl - delete conrtat with success  
+2021-nov.-13 13:32:38.693 INFO  [main] t.e.s.s.EntrepriseServiceImpl - affichage d'une entreprise par id : 
+2021-nov.-13 13:32:38.693 ERROR [main] t.e.s.s.EntrepriseServiceImpl - Erreur dans l'affichage de l'entreprise: java.lang.NullPointerException
+2021-nov.-13 13:32:38.693 INFO  [main] t.e.s.s.EntrepriseServiceImpl - Methode affichage entreprise fini
+2021-nov.-13 13:32:38.694 INFO  [main] t.e.s.s.EntrepriseServiceImpl - suppression d'une entreprise : 
+2021-nov.-13 13:32:38.694 ERROR [main] t.e.s.s.EntrepriseServiceImpl - Erreur dans la suppression de l'entreprise: java.lang.NullPointerException
+2021-nov.-13 13:32:38.694 INFO  [main] t.e.s.s.EntrepriseServiceImpl - Methode supprimer entreprise fini
+2021-nov.-13 13:32:38.694 INFO  [main] t.e.s.s.EntrepriseServiceImpl - Ajouter Entreprise
+2021-nov.-13 13:32:38.694 ERROR [main] t.e.s.s.EntrepriseServiceImpl - Erreur : 
+2021-nov.-13 13:32:38.694 INFO  [main] t.e.s.s.EntrepriseServiceImpl - Methode ajouter entreprise fini
+2021-nov.-13 13:32:38.695 INFO  [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [tn.esprit.spring.test.TimeSheetTest], using SpringBootContextLoader
+2021-nov.-13 13:32:38.696 INFO  [main] o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [tn.esprit.spring.test.TimeSheetTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-nov.-13 13:32:38.697 INFO  [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [tn.esprit.spring.test.TimeSheetTest]: TimeSheetTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-nov.-13 13:32:38.698 INFO  [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration tn.esprit.spring.TimesheetSpringBootCoreDataJpaMvcRest1Application for test class tn.esprit.spring.test.TimeSheetTest
+2021-nov.-13 13:32:38.700 INFO  [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-nov.-13 13:32:38.701 INFO  [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@14764fdd, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@402fdef1, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@69e8f7a5, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1013aa94, org.springframework.test.context.support.DirtiesContextTestExecutionListener@36bd07ec, org.springframework.test.context.transaction.TransactionalTestExecutionListener@85b9f9c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@26a004ed, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2b6a4da7, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@75b6bd41, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@21457b14, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7e484bd, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7e1ae693]
+2021-nov.-13 13:32:38.783 INFO  [Thread-1] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-nov.-13 13:32:38.785 INFO  [Thread-1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-nov.-13 13:32:38.790 INFO  [Thread-1] c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-nov.-13 13:32:38.800 INFO  [Thread-1] c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
