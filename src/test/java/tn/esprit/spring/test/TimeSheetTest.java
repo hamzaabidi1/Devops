@@ -8,13 +8,15 @@ import tn.esprit.spring.repository.*;
 import static org.junit.Assert.assertEquals;
 
 import java.text.ParseException;
+import java.util.List;
 
-
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
+import org.junit.After;
 import org.junit.Assert;
 
 
@@ -25,38 +27,56 @@ public class TimeSheetTest {
 	
 	
    @Autowired
-	TimesheetServiceImpl TimesheetServiceImpl;
+	TimesheetServiceImpl timesheetServiceImpl;
    @Autowired
-   TimesheetRepository TRep;
-
+   MissionRepository missionRepository;
    
-   
+     private Mission mission;
+     private int idm;
+     private Employe employe;
+     private int ide;
+     List<Employe> l;
+     List<Mission> m;
+     
+     @Before
+     public void init() {
+      mission = new Mission("mariem","romdhani");
+      idm=timesheetServiceImpl.ajouterMission(mission);
+       l =timesheetServiceImpl.getAllEmployeByMission(idm);
+       m=  timesheetServiceImpl.findAllMissionByEmployeJPQL(ide);
+     }
+    
+     @After
+     public void restart() {
+    	
+    	 missionRepository.delete(mission);
+     }
 
-	//private TimesheetPK timesheetPK;
-	Mission m = new Mission("mariem","romdhani");
+
+
 	@Test
 	public void testAjouterMission() {
-		Assert.assertEquals(11, TimesheetServiceImpl.ajouterMission(m));
+		Assert.assertEquals(idm, timesheetServiceImpl.ajouterMission(mission));
 	}
 	
 
     @Test
 	public void testgetAllEmployeByMission() throws ParseException {
 
-		assertEquals("mariem", TimesheetServiceImpl.getAllEmployeByMission(1));
+		assertEquals(l , timesheetServiceImpl.getAllEmployeByMission(idm));
 
 	}
 	@Test
 	public void testfindAllMissionByEmployeJPQL() throws ParseException {
 
-		assertEquals("mariem", TimesheetServiceImpl.getAllEmployeByMission(1));
+		assertEquals(m , timesheetServiceImpl.findAllMissionByEmployeJPQL(ide));
 	}
 	
 	
 
 	
 	
-    
+
 	
 	}
 
