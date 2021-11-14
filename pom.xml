@@ -10,11 +10,11 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>tn.esprit.spring</groupId>
-	<artifactId>Timesheet-spring-boot-core-data-jpa-mvc-REST-1</artifactId>
+	<artifactId>devops</artifactId>
 	<version>0.0.2-RELEASE</version>
 	<packaging>war</packaging>
-	<name>Timesheet-spring-boot-core-data-jpa-mvc-REST-1</name>
-	<description>Timesheet-spring-boot-core-data-jpa-mvc-REST-1</description>
+	<name>devops</name>
+	<description>devops</description>
 
 	<properties>
 		<java.version>1.8</java.version>
